@@ -288,3 +288,114 @@ body {
   margin-right: 8px;
 }
 /* 상단 배너박스 1 끝 */
+
+/* 상단 배너박스 2 시작 */
+.top-banner-box-2 > div:first-child > * {
+  margin-left: 38px;
+}
+
+.top-banner-box-2 > div:last-child > * {
+  margin-left: 38px;
+}
+
+.top-banner-box-2 .img-box {
+  width: 473px;
+}
+/* 상단 배너박스 2 끝 */
+
+/* 상단 배너박스 3 시작 */
+.top-banner-box-3 > div:first-child > * {
+  margin-left: 70px;
+}
+
+.top-banner-box-3 > div:last-child > * {
+  margin-left: 65px;
+}
+
+.top-banner-box-3 .txt-box > .img-box-1 {
+  margin-top: 50px;
+}
+
+.top-banner-box-3 .txt-box > .img-box-1 > img {
+  width: 440px;
+}
+
+.top-banner-box-3 .img-box {
+  width: 409px;
+}
+
+.top-banner-box-3 .img-box > img {
+  transition: transform 1s cubic-bezier(0.6, 0.2, 0.1, 1), opacity 1s;
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.top-banner-box-3 .img-box.active > img {
+  transform: translateX(0);
+  opacity: 1;
+}
+/* 상단 배너박스 3 끝 */
+
+/* 상단 배너박스 4 시작 */
+.top-banner-box-4 > div:first-child > * {
+  margin-left: 57px;
+}
+
+.top-banner-box-4 > div:last-child > * {
+  margin-left: 38px;
+}
+
+.top-banner-box-4 .img-box {
+  width: 459px;
+}
+/* 상단 배너박스 4 끝 */
+
+/* 상단 배너박스 5 시작 */
+.top-banner-box-5 > div:first-child > * {
+  margin-left: 130px;
+}
+
+.top-banner-box-5 > div:last-child > * {
+  margin-right: 5px;
+}
+
+.top-banner-box-5 .img-box {
+  width: 492px;
+}
+/* 상단 배너박스 5 끝 */
+
+/* 상단 배너박스 6 시작 */
+.top-banner-box-6 > div:first-child > * {
+  margin-left: 75px;
+}
+
+.top-banner-box-6 > div:last-child > * {
+  margin-left: 38px;
+}
+
+.top-banner-box-6-wrap {
+  background-image: url(https://www.kakaobank.com/static/images/web/home_map.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+.top-banner-box-6 .img-box {
+  width: 408px;
+}
+
+.top-banner-box-6 .img-box > img {
+  transition: transform 1s cubic-bezier(0.6, 0.2, 0.1, 1), opacity 1s;
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.top-banner-box-6 .img-box.active > img {
+  transform: translateY(0);
+  opacity: 1;
+}
+/* 상단 배너박스 6 끝 */
+
+/* 임시 */
+body {
+  padding-bottom: 1000px;
+}
